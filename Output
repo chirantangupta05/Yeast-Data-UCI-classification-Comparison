@@ -1,0 +1,90 @@
+ Sequence Name   mcg   gvh   alm   mit  erl  pox   vac   nuc class
+0     ADT1_YEAST  0.58  0.61  0.47  0.13  0.5  0.0  0.48  0.22   MIT
+1     ADT2_YEAST  0.43  0.67  0.48  0.27  0.5  0.0  0.53  0.22   MIT
+2     ADT3_YEAST  0.64  0.62  0.49  0.15  0.5  0.0  0.53  0.22   MIT
+3     AAR2_YEAST  0.58  0.44  0.57  0.13  0.5  0.0  0.54  0.22   NUC
+4     AATM_YEAST  0.42  0.44  0.48  0.54  0.5  0.0  0.48  0.22   MIT
+5     AATC_YEAST  0.51  0.40  0.56  0.17  0.5  0.5  0.49  0.22   CYT
+6     ABC1_YEAST  0.50  0.54  0.48  0.65  0.5  0.0  0.53  0.22   MIT
+7     BAF1_YEAST  0.48  0.45  0.59  0.20  0.5  0.0  0.58  0.34   NUC
+8     ABF2_YEAST  0.55  0.50  0.66  0.36  0.5  0.0  0.49  0.22   MIT
+9     ABP1_YEAST  0.40  0.39  0.60  0.15  0.5  0.0  0.58  0.30   CYT
+10    ACE1_YEAST  0.43  0.39  0.54  0.21  0.5  0.0  0.53  0.27   NUC
+11    ACE2_YEAST  0.42  0.37  0.59  0.20  0.5  0.0  0.52  0.29   NUC
+12    ACH1_YEAST  0.40  0.42  0.57  0.35  0.5  0.0  0.53  0.25   CYT
+13    ACON_YEAST  0.60  0.40  0.52  0.46  0.5  0.0  0.53  0.22   MIT
+14    ACR1_YEAST  0.66  0.55  0.45  0.19  0.5  0.0  0.46  0.22   MIT
+15     ACT_YEAST  0.46  0.44  0.52  0.11  0.5  0.0  0.50  0.22   CYT
+16    ACT2_YEAST  0.47  0.39  0.50  0.11  0.5  0.0  0.49  0.40   CYT
+17    ACT3_YEAST  0.58  0.47  0.54  0.11  0.5  0.0  0.51  0.26   NUC
+18    ACT5_YEAST  0.50  0.34  0.55  0.21  0.5  0.0  0.49  0.22   NUC
+19    ADA2_YEAST  0.61  0.60  0.55  0.21  0.5  0.0  0.50  0.25   NUC
+               mcg          gvh          alm          mit          erl  \
+count  1484.000000  1484.000000  1484.000000  1484.000000  1484.000000   
+mean      0.500121     0.499933     0.500034     0.261186     0.504717   
+std       0.137299     0.123924     0.086670     0.137098     0.048351   
+min       0.110000     0.130000     0.210000     0.000000     0.500000   
+25%       0.410000     0.420000     0.460000     0.170000     0.500000   
+50%       0.490000     0.490000     0.510000     0.220000     0.500000   
+75%       0.580000     0.570000     0.550000     0.320000     0.500000   
+max       1.000000     1.000000     1.000000     1.000000     1.000000   
+
+               pox          vac          nuc  
+count  1484.000000  1484.000000  1484.000000  
+mean      0.007500     0.499885     0.276199  
+std       0.075683     0.057797     0.106491  
+min       0.000000     0.000000     0.000000  
+25%       0.000000     0.480000     0.220000  
+50%       0.000000     0.510000     0.220000  
+75%       0.000000     0.530000     0.300000  
+max       0.830000     0.730000     1.000000  
+class
+CYT    463
+ERL      5
+EXC     35
+ME1     44
+ME2     51
+ME3    163
+MIT    244
+NUC    429
+POX     20
+VAC     30
+dtype: int64
+
+￼
+
+￼
+
+￼
+
+￼
+
+￼
+LR: 0.542762 (0.135263)
+C:\Users\Chirantan\Downloads\WinPython-64bit-3.5.2.3\python-3.5.2.amd64\lib\site-packages\sklearn\discriminant_analysis.py:457: UserWarning: The priors do not sum to 1. Renormalizing
+  UserWarning)
+LDA: 0.587619 (0.122524)
+KNN: 0.560667 (0.130765)
+CART: 0.516810 (0.126761)
+NB: 0.144952 (0.090349)
+SVM: 0.441619 (0.143713)
+
+￼
+0.4
+[[ 9  0  0  2  2]
+ [ 2  0  0  0  0]
+ [ 6  0  1  0  0]
+ [ 2  0  0  5  0]
+ [10  0  0  0  1]]
+             precision    recall  f1-score   support
+
+        CYT       0.31      0.69      0.43        13
+        ME2       0.00      0.00      0.00         2
+        ME3       1.00      0.14      0.25         7
+        MIT       0.71      0.71      0.71         7
+        NUC       0.33      0.09      0.14        11
+
+avg / total       0.49      0.40      0.35        40
+
+C:\Users\Chirantan\Downloads\WinPython-64bit-3.5.2.3\python-3.5.2.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
